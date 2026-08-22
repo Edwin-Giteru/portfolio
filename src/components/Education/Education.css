@@ -1,0 +1,51 @@
+.education__grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 1fr;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.education__card {
+  padding: var(--space-6);
+}
+
+.education__card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.education__period {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-soft);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  margin-bottom: var(--space-3);
+}
+
+.education__credential {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-2);
+}
+
+.education__school {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-bottom: var(--space-3);
+}
+
+.education__detail {
+  color: var(--color-text-secondary);
+  font-size: 0.92rem;
+}
+
+@media (min-width: 700px) {
+  .education__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

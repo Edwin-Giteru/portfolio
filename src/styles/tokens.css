@@ -1,0 +1,54 @@
+:root {
+  /* Color — smoke-gray base with a modern (non-navy) blue accent */
+  --color-bg: #f2f3f5;
+  --color-bg-soft: #e9ebef;
+  --color-surface: #ffffff;
+  --color-surface-alt: #fbfbfc;
+  --color-border: #e0e3e8;
+  --color-border-strong: #cdd2da;
+
+  --color-primary: #2e5fe6;
+  --color-primary-dark: #1f45b8;
+  --color-primary-soft: #e9eefd;
+  --color-accent: #0bb6c4;
+  --color-accent-soft: #e4f8fa;
+
+  --color-text: #14161b;
+  --color-text-secondary: #4a5060;
+  --color-text-muted: #838a99;
+  --color-text-on-primary: #ffffff;
+
+  --color-success: #17a06a;
+
+  /* Typography */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+  --space-10: 5.5rem;
+  --space-11: 7.5rem;
+
+  /* Layout */
+  --container-width: 1140px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(20, 22, 27, 0.05);
+  --shadow-md: 0 8px 24px rgba(20, 22, 27, 0.07);
+  --shadow-lg: 0 20px 48px rgba(20, 22, 27, 0.1);
+
+  --transition-base: 200ms ease;
+}
