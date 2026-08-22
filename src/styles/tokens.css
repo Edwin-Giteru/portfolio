@@ -21,7 +21,7 @@
   --color-success: #17a06a;
 
   /* Typography */
-  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-display: ubuntu, "Segoe UI", sans-serif;
   --font-body: "Inter", "Segoe UI", sans-serif;
   --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 
