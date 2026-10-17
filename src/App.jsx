@@ -4,7 +4,6 @@ import About from "./components/About/About.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
 import Projects from "./components/Projects/Projects.jsx";
-import Education from "./components/Education/Education.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import FloatingNav from "./components/FloatingNav/FloatingNav.jsx";
@@ -22,7 +21,6 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
-        <Education />
         <Contact />
       </main>
       <Footer />
