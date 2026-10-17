@@ -22,13 +22,7 @@ const icons = {
       strokeLinejoin="round"
     />
   ),
-  Education: (
-    <path
-      d="m12 3 9 4.5-9 4.5-9-4.5L12 3Zm-6 6.5V15c0 1.5 2.7 3 6 3s6-1.5 6-3V9.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  ),
+
   Contact: (
     <path
       d="M4 5h16v14H4Zm0 0 8 7 8-7"
